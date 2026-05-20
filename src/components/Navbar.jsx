@@ -22,14 +22,14 @@ export default function Navbar() {
         : "py-6"
         }`}
     >
-      <div className="container mx-auto max-w-7xl px-6">
+      <div className="container px-6 mx-auto max-w-7xl">
         <div className={`relative flex items-center justify-between px-6 py-3 rounded-full transition-all duration-500 ${isScrolled
-          ? "bg-background/70 backdrop-blur-2xl border border-white/10 shadow-2xl"
+          ? "border shadow-sm backdrop-blur-2xl bg-background/70 border-white/10"
           : "bg-transparent border border-transparent"
           }`}>
           {/* Logo */}
-          <div className="flex items-center gap-3 group cursor-pointer">
-            <div className="w-10 h-10 bg-primary rounded-xl flex items-center justify-center text-white font-black text-xl shadow-lg shadow-primary/20 group-hover:scale-110 group-hover:rotate-6 transition-all duration-300">
+          <div className="flex gap-3 items-center cursor-pointer group">
+            <div className="flex justify-center items-center w-10 h-10 text-xl font-black text-white rounded-xl shadow-lg transition-all duration-300 bg-primary shadow-primary/20 group-hover:scale-110 group-hover:rotate-6">
               C
             </div>
             <span className="text-xl font-black tracking-tighter text-black">CommitFit</span>
@@ -37,18 +37,15 @@ export default function Navbar() {
 
           {/* Menu */}
           <div className="hidden md:flex items-center gap-10 text-xs font-bold text-black/60 uppercase tracking-[0.2em]">
-            <a href="#how-it-works" className="hover:text-primary text-black transition-colors">Methodology</a>
-            <a href="#features" className="hover:text-primary text-black transition-colors">Features</a>
-            <a href="#faq" className="hover:text-primary text-black transition-colors">FAQ</a>
+            <a href="#how-it-works" className="text-black transition-colors hover:text-primary">Methodology</a>
+            <a href="#features" className="text-black transition-colors hover:text-primary">Features</a>
+            <a href="#faq" className="text-black transition-colors hover:text-primary">FAQ</a>
           </div>
 
           {/* Action */}
-          <div className="flex items-center gap-4">
-            <Button variant="ghost" size="sm" className="hidden sm:flex text-black hover:text-primary">
-              Sign In
-            </Button>
+          <div className="flex gap-4 items-center">
             <Button size="sm" variant={isScrolled ? "default" : "outline"} className={isScrolled ? "" : "border-black text-black"}>
-              Join Now
+              Join the Waitlist
             </Button>
           </div>
         </div>

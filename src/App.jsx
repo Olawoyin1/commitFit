@@ -10,24 +10,27 @@ import Testimonial from './components/Testimonial';
 import Faq from './components/Faq';
 import FinalCta from './components/FinalCta';
 import Footer from './components/Footer';
+import { DynamicIslandTOC } from './components/ui/dynamic-island-toc';
 
 function App() {
   return (
-    <div className="app">
-      <Navbar />
-      <main>
-        <Hero />
-        <ProblemSection />
-        <AppPreview />
-        <Features />
-        <TrustSection />
-        <HowItWorks />
-        <Testimonial />
-        <Faq />
-        <FinalCta />
-      </main>
-      <Footer />
-    </div>
+    <DynamicIslandTOC selector="main h2, main h3, [data-toc]">
+      <div className="app">
+        <Navbar />
+        <main>
+          <Hero />
+          <ProblemSection />
+          <AppPreview />
+          <Features />
+          <TrustSection />
+          <HowItWorks />
+          <Testimonial />
+          <Faq />
+          <FinalCta />
+        </main>
+        <Footer />
+      </div>
+    </DynamicIslandTOC>
   );
 }
 
