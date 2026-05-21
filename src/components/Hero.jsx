@@ -34,11 +34,11 @@ export default function HeroSection() {
                             initial={{ opacity: 0, y: 24 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.5, delay: 0.1 }}
-                            className="flex flex-wrap justify-center text-4xl md:text-6xl xl:text-7xl font-black tracking-tight leading-[1.05] mb-6 text-center"
+                            className="flex flex-wrap justify-center text-4xl md:text-5xl xl:text-6xl font-black tracking-tight leading-[1.05] mb-2 text-center"
                         >
                             Miss the gym.{" "}
                         </motion.h1>
-                        <h1 className="flex flex-col items-center md:flex-row md:flex-wrap justify-center w-full gap-y-2 gap-x-3 text-4xl md:text-6xl xl:text-7xl font-black tracking-tight leading-[1.05] mb-6 text-center">
+                        <h1 className="flex flex-col items-center md:flex-row md:flex-wrap justify-center w-full gap-y-2 gap-x-3 text-4xl md:text-5xl xl:text-6xl font-black tracking-tight leading-[1.05] mb-6 text-center">
                             {/* Row 1 on mobile: Pay/Settle + The */}
                             <span className="flex items-center gap-3">
                                 <ContainerTextFlip
@@ -150,7 +150,7 @@ export default function HeroSection() {
                             </div>
                             <div>
                                 <div className="text-[11px] text-black/60 font-medium">Penalty charged</div>
-                                <div className="text-sm font-bold whitespace-nowrap text-black">₦2,500 deducted</div>
+                                <div className="text-sm font-bold whitespace-nowrap text-black">₦3,000 deducted</div>
                             </div>
                         </motion.div>
 

@@ -3,7 +3,7 @@ import { LuLock, LuShieldCheck, LuScale, LuFileText } from "react-icons/lu";
 
 export default function TrustSection() {
     const items = [
-        { icon: LuLock, title: "Secure payments via Stripe", desc: "Enterprise-grade encryption" },
+        { icon: LuLock, title: "Secure payments", desc: "Secure payments via Paystack" },
         { icon: LuShieldCheck, title: "End-to-end privacy", desc: "Your data is never shared" },
         { icon: LuScale, title: "Dispute protection", desc: "Fair review on every charge" },
         { icon: LuFileText, title: "Transparent terms", desc: "No hidden fees, ever" }

@@ -59,8 +59,8 @@ export default function AppPreview() {
                             <div className="mb-6">
                                 <label className="text-sm font-medium block mb-2">Penalty Amount</label>
                                 <div className="flex items-center gap-2">
-                                    <span className="text-2xl font-bold">$</span>
-                                    <input type="text" value="25" readOnly className="bg-background border border-border rounded-md px-4 py-2 text-2xl font-bold w-24 focus:outline-none" />
+                                    <span className="text-2xl font-bold">₦</span>
+                                    <input type="text" value="3,000" readOnly className="bg-background border border-border rounded-md px-4 py-2 text-xl font-bold w-28 focus:outline-none" />
                                     <span className="text-sm text-muted-foreground">per missed session</span>
                                 </div>
                             </div>
@@ -83,12 +83,12 @@ export default function AppPreview() {
                             <h4 className="font-semibold text-sm mb-3">Penalty History</h4>
                             <div className="flex items-center justify-between text-sm py-2">
                                 <span className="text-muted-foreground">Oct 12</span>
-                                <span className="font-medium">-$25.00</span>
+                                <span className="font-medium">-₦3,000</span>
                                 <span className="px-2 py-1 rounded bg-primary/10 text-primary text-xs font-bold">Charged</span>
                             </div>
                             <div className="flex items-center justify-between text-sm py-2">
                                 <span className="text-muted-foreground">Sep 28</span>
-                                <span className="font-medium">-$25.00</span>
+                                <span className="font-medium">-₦3,000</span>
                                 <span className="px-2 py-1 rounded bg-border text-muted-foreground text-xs font-bold">Waived</span>
                             </div>
                         </div>

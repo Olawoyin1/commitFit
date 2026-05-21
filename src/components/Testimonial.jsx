@@ -4,14 +4,14 @@ import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 export default function SocialProof() {
   const quotes = [
     {
-      text: "I set my penalty to $50. I haven't missed a 6AM workout in 3 months. The fear of losing money is real.",
-      name: "Marcus T.",
-      init: "MT"
+      text: "I set my penalty to ₦3,000. I haven't missed a 6AM workout in 3 months. The fear of losing money is real.",
+      name: "Chinedu M.",
+      init: "CM"
     },
     {
       text: "Every other fitness app focuses on 'rah-rah' motivation. This focuses on consequences. Exactly what I needed.",
-      name: "Sarah J.",
-      init: "SJ"
+      name: "Tami A.",
+      init: "TA"
     },
     {
       text: "It feels like signing a contract with myself. The interface is cold and serious, which makes me take it seriously.",

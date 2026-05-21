@@ -7,7 +7,7 @@ const steps = [
         icon: LuCalendarDays,
         title: "Set your schedule",
         description:
-            "Select the days you commit to showing up. Choose a time window — minimum 30 minutes. This becomes your contract.",
+            "Select the days you commit to showing up. Choose a time window. This becomes your contract.",
         detail: "Mon · Wed · Fri · 6am – 8am",
     },
     {

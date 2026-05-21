@@ -13,11 +13,11 @@ export default function FAQSection() {
     },
     {
       q: "What if GPS fails or I can't check in?",
-      a: "The app requires location access to verify. If technical issues prevent check-in, you can dispute the charge within 24 hours. We review GPS logs and gym WiFi connectivity to resolve disputes."
+      a: "The app requires location access to verify. If technical issues prevent check-in, you can dispute the charge within 24 hours. We review GPs logs and connectivity issues to resolve disputes."
     },
     {
       q: "Can I dispute a charge?",
-      a: "Yes. Life happens. You can dispute a charge within 24 hours for legitimate emergencies. However, 'I was tired' or 'traffic was bad' will not result in a refund."
+      a: "Yes, because legitimate emergencies happen. You have a 24-hour window to dispute a charge if you face a genuine, verifiable issue. However, common excuses like 'I was tired' or 'traffic was heavy' do not qualify for a refund and will be rejected."
     },
     {
       q: "How does gym check-in verification work?",
@@ -25,7 +25,7 @@ export default function FAQSection() {
     },
     {
       q: "Is my payment information secure?",
-      a: "Absolutely. We use Stripe for all payment processing. We do not store your credit card information directly on our servers."
+      a: "Absolutely. We use Paystack for all payment processing. We do not store your credit card information directly on our servers."
     }
   ];
 

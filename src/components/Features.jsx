@@ -3,8 +3,8 @@ import { LuMapPin, LuZap, LuTrendingUp, LuScale, LuBell, LuClock } from "react-i
 
 export default function FeaturesSection() {
     const features = [
-        { icon: <LuMapPin />, title: "GPS Gym Verification", desc: "Check-ins are tied to physical location. No faking it." },
-        { icon: <LuZap />, title: "Automatic Penalty Enforcement", desc: "Miss a workout, get charged instantly. No manual processing." },
+        { icon: <LuMapPin />, title: "GPS Gym Verification", desc: "Check-ins are tied to physical location. You can't fake it." },
+        { icon: <LuZap />, title: "Automatic Penalty Enforcement", desc: "When you miss workout twice, you get charged." },
         { icon: <LuTrendingUp />, title: "Streak Tracking", desc: "Build momentum with visual proof of your consistency." },
         { icon: <LuScale />, title: "Dispute System", desc: "Legitimate emergency? Dispute the charge within 24 hours." },
         { icon: <LuBell />, title: "Smart Reminders", desc: "Get notified before your window closes." },
